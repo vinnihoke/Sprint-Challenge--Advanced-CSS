@@ -34,13 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+Adaptive layouts take fixed layouts and apply media queries to them. They generally have a hard start and stop. Fully responsive uses media queries as well, but elements use responsive variables; such as %, VH, VW, and REM. This provides a seamless experience between various devices. 
+
 2. Describe what it means to be mobile first vs desktop first.
 
-3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
+Although self explanatory there is a lot that goes into it. You must have a plan for each screen type. Generally designing on mobile with limited screen space provides the most difficulties. Therefore, by starting with the most difficult layout and working your way up to larger devices with more space can make it easier to design. Mobile first design workflow: Mobile --> Tablet --> Desktop. Desktop first design workflow: Desktop --> Tablet --> Mobile. 
+
+3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units? 
+
+This gives us a basis for all the other rem units. The 62.5% is significant because as a base value you can convert rem units by the power of 10. 1 rem = 10px, making rem much easier to use.
 
 4. How would you describe preprocessing to someone new to CSS?
 
+Preprocessing takes already familiar tools like CSS and gives them more powerful features. For instance, the ability to pass in variables, import, and nest items within preprocessors gives a higher semantic meaning to your CSS and provides more legibility as well as flexibility.
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+I am a huge fan of parametric variables. Although complicated, they save a ton of time and actually helped me understand certain concepts better; like flexbox. Nesting is also very useful to my workflow by giving me more organization over my code. Variables, and document organization have been difficult for me with preprocessors. I tend to have documents piled up and scroll past them looking for specific portions I need to edit. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
