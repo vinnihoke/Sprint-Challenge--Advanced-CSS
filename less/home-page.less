@@ -19,6 +19,7 @@
     }
   }
   .hero{
+    margin-top: 150px;
 
     .hero-img{
       background-image: url("/img/main-header.png");
@@ -39,9 +40,16 @@
       .flex(row);
       width: 100%;  
       display: block;
+
       img {
         width: 31%;
         margin: 15px 1%;
+        transition: 500ms;
+
+      &:hover {
+        opacity: 0.70;
+        
+        }
       }
     }
   }
