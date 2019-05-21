@@ -1,1 +1,35 @@
 // Navigation code here
+.navbar {
+	.flex(column, space-evenly, center);
+	width: 100%;
+	height: 120px;
+	position: fixed;
+	top: 0;
+	background-color: white;
+	box-shadow: 0px 0px 7px 0px grey;
+	
+
+	.logo {
+		text-align: center;
+		.custom-font(100%, black);
+	}
+
+	nav {
+		width: 80%;
+		text-align: center;
+		.flex(row, space-between, center);
+
+		@media @tablet {
+			width: 60%;
+		}
+
+		a {
+			transition: 500ms;
+
+			&:hover {
+				.custom-font(1.5rem, red);
+			}
+		}
+
+	}
+}
